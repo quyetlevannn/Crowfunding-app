@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  body {
+    @apply font-primary text-base font-normal mx-auto ;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    max-width: 1600px
+  }
+  input{
+    @apply outline-none;
+  }
+}
+input:focus + .error-input{
+  display: none;
+}
+.quill{
+  @apply border border-strock rounded-xl;
+  border: 1px solid #f1f1f3;
+  border-radius: 10px;
+  padding: 15px 25px;
+  .ql-toolbar.ql-snow{
+    border: none;
+    background: none;
+    @apply bg-text4 bg-opacity-10 rounded-xl py-3 px-5 inline-block;
+  }
+  .ql-container.ql-snow,
+  .ql-editor{
+    @apply border-none font-primary text-sm;
+  }
+  .ql-editor{
+    @apply pt-10;
+  }
+  .ql-editor.ql-blank::before{
+    font-style: normal;
+    @apply text-sm not-italic text-text4
+  }
+}
+.gradient-banner{
+  background-image :linear-gradient(179.14deg,rgba(32,18,63,0) -7.14%, rgba(0,0,0,0.4) 87.01%),
+    url('https://vcdn-dulich.vnecdn.net/2022/06/16/World-Travel-1-2359-1655367719.jpg')
+}
+
+.shasow-1{
+  box-shadow: -4px 4px 8px rgba(226,226,226,0.2),
+  4px 4px 8px rgba(226,226,226,0.2);
+}
+.ReactModal_Body--open{
+  overflow: hidden;
+}
+.scroll-hidden{
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scroll-hidden::-webkit-scrollbar{
+  display: none;
+}
+
+//custom date-picker
+body.react-date-picker{
+    @apply w-full px-6 py-4 font-medium bg-transparent border rounded-xl placeholder:text-text4 dark:placeholder:text-text2 dark:text-white border-stone-300 text-text1 dark:border-darkStroke;
+}

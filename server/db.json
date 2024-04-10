@@ -1,0 +1,63 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "le van quyet",
+            "password": "$2b$10$0SDRy1SwWgvSaQapJxmfguRVbHaYmGEBugDmaFdF0aBHBKYrFZNP.",
+            "email": "qdz@gmail.comasdsa",
+            "refreshToken": null
+        },
+        {
+            "id": 2,
+            "name": "quyet",
+            "password": "$2b$10$MRZhQfzPCTFBJtMDJvHYkuZJrSXrzUMYKdJUTlsvBaLiZg9i1QIQK",
+            "email": "quyet1@gmail.com",
+            "refreshToken": null
+        },
+        {
+            "id": 3,
+            "name": "abc",
+            "password": "$2b$10$0GyURo4SCSZlbMwubs2crOKxnMg4TcFuL1.0UNREiBnHyiAHpS37C",
+            "email": "quyet123@gmail.com",
+            "refreshToken": null
+        },
+        {
+            "id": 4,
+            "name": " van quyet",
+            "password": "$2b$10$CbFYZjJfCw231eMh0nibf.b0EKSmrPkhD8nXqcHTlErn0z7h.tqKm",
+            "email": "quyetle598@gmail.com",
+            "refreshToken": null
+        },
+        {
+            "id": 5,
+            "name": "le van quyet",
+            "password": "$2b$10$UC4ugSdIi0l5FPvz7pwdeOTtQ8youb0HKbcec.gPljI/UxXe7wvFa",
+            "email": "qdz@gmail.com",
+            "refreshToken": null
+        },
+        {
+            "id": 6,
+            "name": "le van quyet",
+            "password": "$2b$10$A3vRWe8.zEIOHc6FW/pP8eILVpl0.1mn.HDYgA4lyMoI7b9aEupI6",
+            "email": "qdz111@gmail.com",
+            "refreshToken": null
+        }
+    ],
+    "categories": [],
+    "campaigns": [
+        {
+            "title": "aasdasdasda",
+            "short_description": "asdasds asdasd dasdas d",
+            "goal": "100",
+            "amount": "100",
+            "amountPrefilled": "10",
+            "video": "https://www.youtube.com/watch?v=_GSI2RaiV0s",
+            "country": "Vietnam",
+            "category": "architecture",
+            "content": "<p><br></p>",
+            "startDate": "2024-03-26T08:47:32.468Z",
+            "endDate": "2024-03-26T08:47:32.468Z",
+            "id": 1
+        }
+    ]
+}
